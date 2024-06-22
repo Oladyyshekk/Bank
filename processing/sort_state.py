@@ -17,6 +17,6 @@ records = [
 executed_records = filter_by_state(records)
 print(executed_records)
 
-# Вызов функции с параметром 'CANCELED'
+
 canceled_records = filter_by_state(records, 'CANCELED')
 print(canceled_records)
