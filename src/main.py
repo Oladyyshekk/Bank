@@ -1,4 +1,4 @@
-
+import widget
 def mask_card_number(card_number):
     """Функция для номера карты"""
     if len(card_number) == 16 and card_number.isdigit():  # Проверяем, что номер карты состоит из 16 цифр
