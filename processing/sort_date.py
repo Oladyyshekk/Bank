@@ -19,6 +19,6 @@ records = [
 sorted_records_desc = sort_records_by_date(records)
 print(sorted_records_desc)
 
-# Вызов функции для сортировки по возрастанию
+
 sorted_records_asc = sort_records_by_date(records, order='ascending')
 print(sorted_records_asc)
