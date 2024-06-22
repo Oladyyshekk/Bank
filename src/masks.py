@@ -19,4 +19,4 @@ account_num = "12345678"
 
 print(mask_card_number(card_num))  # Вывод: 1234 56** **** 3456
 print(mask_account_number(account_num))  # Вывод: **5678
-import data
+import widget
