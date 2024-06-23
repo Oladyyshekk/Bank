@@ -1,5 +1,7 @@
 import widget
-import processing
+import sorted_function
+
+
 def mask_card_number(card_number: str) -> str:
     """Функция для номера карты"""
     if len(card_number) == 16 and card_number.isdigit():  # Проверяем, что номер карты состоит из 16 цифр
@@ -21,4 +23,3 @@ account_num = "12345678"
 
 print(mask_card_number(card_num))  # Вывод: 1234 56** **** 3456
 print(mask_account_number(account_num))  # Вывод: **5678
-
