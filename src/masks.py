@@ -1,6 +1,3 @@
-import widget
-import processing
-
 
 def mask_card_number(card_number: str) -> str:
     """Функция для номера карты"""
